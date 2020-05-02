@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery News Ticker Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/newsTicker.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+</head>
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/rotator/Simple-jQuery-Text-Rotator-Plugin-For-News-Ticker-On-Your-Site.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div class="container" style="margin-top:150px;">
+<h1>News Ticker Demo</h1>
+<script>
+$(function () {
+	$('#newsList').newsTicker();
+});
+</script>
+
+<style>
+.newsCss{
+	height:50px;
+	border:1px solid #c3501d;
+	padding:15px;
+}
+</style>
+	<div id="newsData" class="row newsCss"></div>
+<ul id="newsList">
+			<li class="news-item" >1 jQuery News Ticker, Lorem ipsum dolor sit amet !</li>
+			<li class="news-item" >2 jQuery News Ticker, nunc nobis videntur parum clari, fiant sollemnes in futurum !</li>
+			<li class="news-item" >3 jQuery News Ticker, claritatem insitam; est usus legentis in iis qui facit eorum  !</li>
+	</ul>
+	<div class="row" style="margin-top:10px"><input type="button" id="prevDiv" value="Prev" class="btn btn-primary"> <input type="button" id="nextDiv" value="Next" class="btn btn-primary"> <input class="btn btn-primary" type="button" id="play-pause" value="Play/Pause"></div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>	
+</body>
+</html>
